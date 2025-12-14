@@ -12,3 +12,9 @@ pub use core::{
 pub use core::errors::RouteError;
 pub use core::grammar::parse_file_path;
 pub use core::scan::scan_pages;
+
+pub use adapters::gpui::{
+    RouterView,
+    NavigateError,
+    RouteMatch
+};
