@@ -6,3 +6,4 @@ description = "a file system based router for rust"
 license = "MIT"
 
 [dependencies]
+gpui = "0.2.2"
